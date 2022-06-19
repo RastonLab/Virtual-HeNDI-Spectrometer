@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/virtual-hendi-test/static/css/main.55db2341.css",
-    "main.js": "/virtual-hendi-test/static/js/main.03b3e54a.js",
-    "index.html": "/virtual-hendi-test/index.html",
-    "main.55db2341.css.map": "/virtual-hendi-test/static/css/main.55db2341.css.map",
-    "main.03b3e54a.js.map": "/virtual-hendi-test/static/js/main.03b3e54a.js.map"
+    "main.css": "/Virtual-HeNDI-Spectrometer/static/css/main.55db2341.css",
+    "main.js": "/Virtual-HeNDI-Spectrometer/static/js/main.03b3e54a.js",
+    "index.html": "/Virtual-HeNDI-Spectrometer/index.html",
+    "main.55db2341.css.map": "/Virtual-HeNDI-Spectrometer/static/css/main.55db2341.css.map",
+    "main.03b3e54a.js.map": "/Virtual-HeNDI-Spectrometer/static/js/main.03b3e54a.js.map"
   },
   "entrypoints": [
     "static/css/main.55db2341.css",
