@@ -14,7 +14,10 @@ export const imgSource = {
 };
 
 export const toolTips = {
-  lecture: { title: "Lecture Bottle", text: "" },
+  lecture: {
+    title: "Lecture Bottle",
+    text: "The analyte, in gas form, is stored here. It is leaked into the doping chamber via a leak valve ",
+  },
   "turbo-pump": {
     title: "Turbomolecular Pump",
     text: 'Evacuates the Detection Chamber by means of an axial compressor which consists of a stack of fans that "push" molecules to the exhaust. The fans rotate at a frequency of ~1 kHz.',
