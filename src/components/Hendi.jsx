@@ -5,7 +5,7 @@ import { ReactComponent as Exterior } from "./svgs/hendi-exterior.svg";
 import { ReactComponent as Interior } from "./svgs/hendi-interior.svg";
 
 import { Dialog } from "@mui/material";
-import { imgSource, toolTips } from "../dictionaires/SVGLibrary";
+import { toolTips } from "../dictionaires/SVGLibrary";
 
 export default function Hendi({ seeOutside }) {
   const [toggled, setToggled] = useState(false);
@@ -32,7 +32,7 @@ export default function Hendi({ seeOutside }) {
       {element && (
         <Dialog className="popup" onClose={handleClick} open={toggled}>
           <h2>{toolTips[element].title}</h2>
-          <img src={imgSource[element]} className="example-image" alt="" />
+          <img src={toolTips[element].image} className="example-image" alt="" />
           <p>{toolTips[element].text}</p>
         </Dialog>
       )}
