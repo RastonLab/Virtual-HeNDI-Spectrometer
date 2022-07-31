@@ -2,10 +2,12 @@ import React from "react";
 import "../style/Hendi.css";
 import { useState } from "react";
 import { ReactComponent as Main } from "./svgs/hendi-main.svg";
+import { ReactComponent as Inside } from "./svgs/hendi-inside.svg";
+
 import { Dialog } from "@mui/material";
 import { imgSource, toolTips } from "../dictionaires/SVGLibrary";
 
-function Hendi({ id, seeOutside }) {
+function Hendi({ seeOutside }) {
   const [toggled, setToggled] = useState(false);
   const [element, setElement] = useState();
 
@@ -17,13 +19,15 @@ function Hendi({ id, seeOutside }) {
       setElement(event.target.parentElement.id);
       setToggled(!toggled);
     }
-
-    console.log(element);
   };
 
   return (
     <div id="instrument-window">
-      <Main id="main" onClick={handleClick} />
+      {seeOutside ? (
+        <Main id="instrument" onClick={handleClick} />
+      ) : (
+        <Inside id="instrument" onClick={handleClick} />
+      )}
 
       {element && (
         <Dialog className="popup" onClose={handleClick} open={toggled}>
