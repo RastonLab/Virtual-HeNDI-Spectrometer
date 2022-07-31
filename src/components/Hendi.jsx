@@ -1,13 +1,13 @@
 import React from "react";
 import "../style/Hendi.css";
 import { useState } from "react";
-import { ReactComponent as Main } from "./svgs/hendi-main.svg";
-import { ReactComponent as Inside } from "./svgs/hendi-inside.svg";
+import { ReactComponent as Exterior } from "./svgs/hendi-exterior.svg";
+import { ReactComponent as Interior } from "./svgs/hendi-interior.svg";
 
 import { Dialog } from "@mui/material";
 import { imgSource, toolTips } from "../dictionaires/SVGLibrary";
 
-function Hendi({ seeOutside }) {
+export default function Hendi({ seeOutside }) {
   const [toggled, setToggled] = useState(false);
   const [element, setElement] = useState();
 
@@ -24,9 +24,9 @@ function Hendi({ seeOutside }) {
   return (
     <div id="instrument-window">
       {seeOutside ? (
-        <Main id="instrument" onClick={handleClick} />
+        <Exterior id="instrument" onClick={handleClick} />
       ) : (
-        <Inside id="instrument" onClick={handleClick} />
+        <Interior id="instrument" onClick={handleClick} />
       )}
 
       {element && (
@@ -39,5 +39,3 @@ function Hendi({ seeOutside }) {
     </div>
   );
 }
-
-export default Hendi;
