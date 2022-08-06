@@ -14,6 +14,7 @@ export default function Hendi({ seeOutside }) {
   const handleClick = (event) => {
     if (
       event.target.parentElement.id !== "instrument-window" &&
+      event.target.parentElement.id !== "instrument" &&
       event.target.parentElement.id !== "hendi"
     ) {
       setElement(event.target.parentElement.id);

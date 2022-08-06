@@ -1,14 +1,14 @@
 import chamber from "../components/svgs/tooltips/chamber.svg";
-import coldhead  from "../components/svgs/tooltips/coldhead.svg";
-import diffusionPump  from "../components/svgs/tooltips/diffusion-pump.svg";
-import ionGauge  from "../components/svgs/tooltips/ion-gauge.svg";
-import laserSymbol  from "../components/svgs/tooltips/laser.svg";
-import lecture  from "../components/svgs/tooltips/lecture.svg";
-import rotaryPump  from "../components/svgs/tooltips/rotary-pump.svg";
-import salt  from "../components/svgs/tooltips/salt.svg";
-import sourceChamber  from "../components/svgs/tooltips/source-chamber.svg";
-import stark  from "../components/svgs/tooltips/stark.svg";
-import turboPump  from "../components/svgs/tooltips/turbo-pump.svg";
+import coldhead from "../components/svgs/tooltips/coldhead.svg";
+import diffusionPump from "../components/svgs/tooltips/diffusion-pump.svg";
+import ionGauge from "../components/svgs/tooltips/ion-gauge.svg";
+import laserSymbol from "../components/svgs/tooltips/laser.svg";
+import lecture from "../components/svgs/tooltips/lecture.svg";
+import rotaryPump from "../components/svgs/tooltips/rotary-pump.svg";
+import salt from "../components/svgs/tooltips/salt.svg";
+import sourceChamber from "../components/svgs/tooltips/source-chamber.svg";
+import stark from "../components/svgs/tooltips/stark.svg";
+import turboPump from "../components/svgs/tooltips/turbo-pump.svg";
 
 export const toolTips = {
   lecture: {
