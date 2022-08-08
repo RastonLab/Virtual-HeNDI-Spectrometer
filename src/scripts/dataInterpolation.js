@@ -89,7 +89,7 @@ export async function calculateSpectrum(
  * @returns An object that contains the data from the fetched file(s)
  */
 async function fetchDataFile(baseURL, fileXTemp, fileYTemp) {
-  const fileXUrl = baseURL.concat(fileXTemp, "K.dat");
+  const fileXUrl = baseURL.concat(fileXTemp, "K.txt");
 
   let fileXResponse, fileXData, fileYData;
   try {
@@ -105,7 +105,7 @@ async function fetchDataFile(baseURL, fileXTemp, fileYTemp) {
 
   if (fileYTemp) {
     // construct and fetch the second .dat file (if needed)
-    const fileYUrl = baseURL.concat(fileYTemp, "K.dat");
+    const fileYUrl = baseURL.concat(fileYTemp, "K.txt");
 
     let fileYResponse;
     try {
