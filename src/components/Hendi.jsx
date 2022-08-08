@@ -24,11 +24,9 @@ export default function Hendi({ seeOutside }) {
 
   return (
     <div id="instrument-window">
-      {seeOutside ? (
-        <Exterior id="instrument" onClick={handleClick} />
-      ) : (
-        <Interior id="instrument" onClick={handleClick} />
-      )}
+
+      <Interior className={`instrument ${!seeOutside ? '' : 'transparent'}`} onClick={handleClick} />
+      <Exterior className={`instrument ${seeOutside ? '' : 'transparent'}`} onClick={handleClick} />
 
       {element && (
         <Dialog className="popup" onClose={handleClick} open={toggled}>

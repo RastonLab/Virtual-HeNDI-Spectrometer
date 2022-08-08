@@ -11,9 +11,11 @@
   transition: opacity 0.5s;
 }
 
-#instrument {
-  height: auto;
+.instrument {
+  position: absolute;
+  height: 85vh;
   width: auto;
+  transition: ease-in-out 0.7s;
 }
 
 /* ---------- svg components ---------- */
@@ -56,4 +58,10 @@ g {
 .MuiDialog-paper {
   width: 100%;
   height: 80%;
+}
+
+.transparent, .transparent path {
+  opacity: 0;
+  transition: ease-in-out 0.7s;
+  pointer-events: none;
 }
