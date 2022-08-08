@@ -1,47 +1,59 @@
-.hendi-component {
-  position: absolute;
-  z-index: 1;
-  transition: ease-in-out 1s;
-  width: 100%;
-  height: 100%;
-}
-.hendi-box {
+#instrument-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 128vh;
   height: 82vh;
-  position: absolute;
   border: solid black 1px;
   border-radius: 1em;
   margin: 1em;
-  transition: ease-in-out 0.4s;
+  transition: opacity 0.5s;
+}
 
+#instrument {
+  height: auto;
+  width: auto;
+}
+
+/* ---------- svg components ---------- */
+.component {
+  pointer-events: none;
 }
 
 .svg {
   position: absolute;
+  top: 0;
+  left: 0;
   pointer-events: none;
+  border: #1d2022 2px solid;
 }
 
-path {
+g {
   pointer-events: all;
 }
 
-@media only screen and (max-width: 768px) {
-  .hendi-box {
-    width: 95vw;
-    height: 59.375vw;
-    margin: 1.25vw;
-  }
-}
-.area-div {
-  position: absolute;
-  z-index: 7;
-  /* border: dotted red 1px; */
-  border-radius: 4px;
+.example-image {
+  align-self: center;
+  width: 70%;
+  height: 30%;
 }
 
-.transparent, .transparent path {
-  opacity: 0.5;
-  transition: ease-in-out 0.4s;
+/* ---------- popup ---------- */
+.popup h2 {
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: underline;
+}
+
+.popup p {
+  font-family: "Roboto";
   pointer-events: none;
+  padding: 0 3%;
 }
 
+.MuiDialog-paper {
+  width: 100%;
+  height: 80%;
+}
