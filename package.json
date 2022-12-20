@@ -4,9 +4,9 @@
   "private": true,
   "homepage": "https://rastonlab.github.io/Virtual-HeNDI-Spectrometer/",
   "dependencies": {
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
-    "@mui/material": "^5.9.2",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.1",
     "big.js": "^6.2.1",
     "dygraphs": "^2.1.0",
     "file-saver": "^2.0.5",
