@@ -4,16 +4,13 @@
   "private": true,
   "homepage": "https://rastonlab.github.io/Virtual-HeNDI-Spectrometer/",
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.11.1",
+    "@mui/material": "^5.11.4",
     "big.js": "^6.2.1",
     "dygraphs": "^2.1.0",
     "file-saver": "^2.0.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
-},
+    "react-dom": "^18.2.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
