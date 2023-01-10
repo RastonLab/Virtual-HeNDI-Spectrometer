@@ -84,7 +84,7 @@ export const toolTips = {
   salt: {
     image: salt,
     title: "Salt Window",
-    text: "This is a thin window (1-5 mm) that is transperant to infrared radiation. Typical materials are BaF₂, CaF₂, and ZnSe.",
+    text: "This is a thin window (1-5 mm) that is transparent to infrared radiation. Typical materials are BaF₂, CaF₂, and ZnSe.",
   },
   nozzle: {
     image: "",
