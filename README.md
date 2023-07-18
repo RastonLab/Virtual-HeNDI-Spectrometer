@@ -1,41 +1,69 @@
 # Virtual-HeNDI-Spectrometer
 
-This web application is intended to provide users with an overview of the anatomy of a Helium NanoDroplet Isolation (HeNDI) spectrometer. The application allows users to experiment with changing parameters such as the nozzle temperature to better understand the effect of these parameters on the spectra collected by the instrument. The user can simulate collecting spectra at a variety of nozzle temperatures ranging between 13.5 and 20 K.
+The Raston Lab's **Helium NanoDroplet Isolation - Scientific Instrument Simulator** (HeNDI-SIS) was designed to emulate a student's classroom experience with a HeNDI spectrometer. The web application is intended to provide users with an overview of the anatomy of a HeNDI. When used, the application allows users to experiment with changing parameters such as the nozzle temperature to better understand the effect of these parameters on the spectra collected by the instrument. The user can simulate collecting spectra at a variety of nozzle temperatures ranging between 13.5 and 20 K.
 
-The web application is accessible at: https://rastonlab.github.io/Virtual-HeNDI-Spectrometer/
+*Original work on this project was started by [Isaac Miller](https://github.com/isaac-j-miller)*
+
+## Installation
+
+**NOTE:** The frontend and backend exist together. The backend does not need to be run separately.
+
+1. Clone the repository
+
+2. Move into the cloned repository's directory
+
+   ```bash
+   cd Virtual-HeNDI-Spectrometer
+   ```
+
+3. Install all `npm` dependencies
+
+   ```bash
+   npm install
+   ```
+
+4. Run the server locally
+
+   ```bash
+   npm start
+   ```
 
 # Usage
 
-## Instrument
+The intended audience for this application is undergraduate chemistry students studying spectroscopy. The following screenshots are not exhaustive but acknowledge most of the main features:
 
-TODO
+- Instrument and Parameter View
 
-## Tooltips
+**_TODO_**
 
-TODO
+- Spectrum View
 
-## Temperature Controller
+**_TODO_**
 
-TODO
+## Contributing
 
-## Collect Spectrum
+This project is intended to be a project for recruited undergraduate students, but pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-TODO
+## License
 
-# Running locally
+Licensed under **_TODO_**
 
-The virtual spectrometer is made up of one program.
+**Relevant third-party tools and resources we depend on:**
 
-- [Virtual-HeNDI-Spectrometer](https://github.com/RastonLab/Virtual-HeNDI-Spectrometer)
+- [big.js](https://github.com/MikeMcl/big.js): TODO (Licensed [MIT](https://github.com/MikeMcl/big.js/blob/master/LICENCE.md))
 
-  - This repository contains the front-end and back-end of the program using the React JavaScript library.
+- [dygraphs](https://github.com/danvk/dygraphs): TODO (Licensed [MIT](https://github.com/danvk/dygraphs/blob/master/LICENSE.txt))
 
-## Front-end
+- [FileSaver.js](https://github.com/eligrey/FileSaver.js): TODO (Licensed [MIT](https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md))
 
-TODO
+- [GitHub Pages Deploy Action](https://github.com/JamesIves/github-pages-deploy-action): GitHub Action used to automate deployment of web applications to GitHub Pages (Licensed [MIT](https://github.com/JamesIves/github-pages-deploy-action/blob/dev/LICENSE))
 
-# Architecture
+- [MUI](https://mui.com/): React user interface component library (Licensed [MIT](https://github.com/mui/material-ui/blob/master/LICENSE))
 
-## GitHub Pages
+- [React](https://react.dev/): Javascript library for building user interfaces (Licensed [MIT](https://github.com/facebook/react/blob/main/LICENSE))
 
-The front-end of this project is hosted using [GitHub Pages](https://pages.github.com/). This allows us to have automatic updates to the live website after commits and pull requests are made to the central repository. These updates are automatically handled using [GitHub Actions](https://github.com/features/actions). Specifically, [GitHub Pages Deploy Action](https://github.com/JamesIves/github-pages-deploy-action) by James Ives. A simplified tutorial of this can be found on the [Raston Lab Wiki](https://github.com/RastonLab/.github/wiki/Tutorials#how-to-setup-a-github-action-to-host-a-react-application-on-github-pages)!
+- [SVGO](https://github.com/svg/svgo): Node.js tool for optimizing SVG files (Licensed [MIT](https://github.com/svg/svgo/blob/main/LICENSE))
+
+- [SVGOMG](https://github.com/jakearchibald/svgomg): Web GUI for SVGO (Licensed [MIT](https://github.com/jakearchibald/svgomg/blob/main/LICENSE.md))
+
+- [SVGR](https://github.com/gregberge/svgr): Tool for transforming SVGs into React components (Licensed [MIT](https://github.com/gregberge/svgr/blob/main/LICENSE))
