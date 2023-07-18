@@ -50,17 +50,17 @@ Licensed under **_TODO_**
 
 **Relevant third-party tools and resources we depend on:**
 
-- [big.js](https://github.com/MikeMcl/big.js): TODO (Licensed [MIT](https://github.com/MikeMcl/big.js/blob/master/LICENCE.md))
+- [big.js](https://github.com/MikeMcl/big.js): JavaScript library for arbitrary-precision decimal arithmetic (Licensed [MIT](https://github.com/MikeMcl/big.js/blob/master/LICENCE.md))
 
-- [dygraphs](https://github.com/danvk/dygraphs): TODO (Licensed [MIT](https://github.com/danvk/dygraphs/blob/master/LICENSE.txt))
+- [Dygraphs](https://github.com/danvk/dygraphs): JavaScript library for interactive data visualization (Licensed [MIT](https://github.com/danvk/dygraphs/blob/master/LICENSE.txt))
 
-- [FileSaver.js](https://github.com/eligrey/FileSaver.js): TODO (Licensed [MIT](https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md))
+- [FileSaver.js](https://github.com/eligrey/FileSaver.js): Solution for saving client-generated data as a file (Licensed [MIT](https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md))
 
 - [GitHub Pages Deploy Action](https://github.com/JamesIves/github-pages-deploy-action): GitHub Action used to automate deployment of web applications to GitHub Pages (Licensed [MIT](https://github.com/JamesIves/github-pages-deploy-action/blob/dev/LICENSE))
 
 - [MUI](https://mui.com/): React user interface component library (Licensed [MIT](https://github.com/mui/material-ui/blob/master/LICENSE))
 
-- [React](https://react.dev/): Javascript library for building user interfaces (Licensed [MIT](https://github.com/facebook/react/blob/main/LICENSE))
+- [React](https://react.dev/): JavaScript library for building user interfaces (Licensed [MIT](https://github.com/facebook/react/blob/main/LICENSE))
 
 - [SVGO](https://github.com/svg/svgo): Node.js tool for optimizing SVG files (Licensed [MIT](https://github.com/svg/svgo/blob/main/LICENSE))
 
